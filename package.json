@@ -1,0 +1,24 @@
+{
+  "name": "introducao-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ViniciusAlexsander/introducao-react.git",
+  "author": "Vinicius Marinho <48867230+ViniciusAlexsander@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build" : "webpack --mode production",
+    "dev" : "webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
